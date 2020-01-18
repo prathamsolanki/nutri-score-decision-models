@@ -1,3 +1,5 @@
+print('### Executing Machine Learning models ###')
+
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -5,13 +7,16 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-os.system('pip install xgboost')
+# Uncomment the following line to install xgboost
+# os.system('pip install xgboost')
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
 from sklearn import tree
-os.system('conda install -c conda-forge python-graphviz -y')
+# Uncomment the following line to install graphviz
+#os.system('conda install -c conda-forge python-graphviz -y')
 import graphviz
-os.system('pip install -U scikit-learn')
+# Uncomment the following line in case of plot_confusion_matrix import error
+# os.system('pip install -U scikit-learn')
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import plot_confusion_matrix
 from sklearn.metrics import confusion_matrix

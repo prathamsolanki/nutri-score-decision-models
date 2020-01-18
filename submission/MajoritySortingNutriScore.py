@@ -1,3 +1,5 @@
+print('### Executing MR-Sort procedure ###')
+
 import warnings
 warnings.filterwarnings("ignore")
 
