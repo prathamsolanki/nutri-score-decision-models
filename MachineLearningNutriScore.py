@@ -52,7 +52,7 @@ dot_data = tree.export_graphviz(clf, out_file=None,
                       filled=True, rounded=True,  
                       special_characters=True)  
 graph = graphviz.Source(dot_data)  
-graph.render("nutri-score-decision-tree")
+graph.render("NutriScoreDecisionTree")
 
 print('Accuracy: ', clf.score(X_test,y_test))
 

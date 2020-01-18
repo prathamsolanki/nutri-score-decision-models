@@ -179,6 +179,7 @@ y = [p.value() for p in utility_thresh['energy']]
 plt.plot(x,y)
 
 plt.savefig('thresh_energy.jpg')
+plt.clf()
 
 plt.rcParams["figure.figsize"] = [12,9]
 plt.title('Utility function for criteria: Saturated Fat')
@@ -197,6 +198,7 @@ y = [p.value() for p in utility_thresh['saturated_fat']]
 plt.plot(x,y)
 
 plt.savefig('thresh_saturated_fat.jpg')
+plt.clf()
 
 plt.rcParams["figure.figsize"] = [12,9]
 plt.title('Utility function for criteria: Salt')
@@ -215,6 +217,7 @@ y = [p.value() for p in utility_thresh['salt']]
 plt.plot(x,y)
 
 plt.savefig('thresh_salt.jpg')
+plt.clf()
 
 plt.rcParams["figure.figsize"] = [12,9]
 plt.title('Utility function for criteria: Sugars')
@@ -233,6 +236,7 @@ y = [p.value() for p in utility_thresh['sugars']]
 plt.plot(x,y)
 
 plt.savefig('thresh_sugars.jpg')
+plt.clf()
 
 plt.rcParams["figure.figsize"] = [12,9]
 plt.title('Utility function for criteria: Fiber')
@@ -251,6 +255,7 @@ y = [p.value() for p in utility_thresh['fiber']]
 plt.plot(x,y)
 
 plt.savefig('thresh_fiber.jpg')
+plt.clf()
 
 plt.rcParams["figure.figsize"] = [12,9]
 plt.title('Utility function for criteria: Protein')
@@ -269,6 +274,7 @@ y = [p.value() for p in utility_thresh['proteins']]
 plt.plot(x,y)
 
 plt.savefig('thresh_proteins.jpg')
+plt.clf()
 
 print('Testing the model to generate preferences for 100 foods...')
 
