@@ -1,13 +1,17 @@
 import warnings
 warnings.filterwarnings("ignore")
 
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+os.system('pip install xgboost')
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
 from sklearn import tree
+os.system('conda install -c conda-forge python-graphviz -y')
 import graphviz
+os.system('pip install -U scikit-learn')
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import plot_confusion_matrix
 from sklearn.metrics import confusion_matrix
@@ -48,7 +52,7 @@ dot_data = tree.export_graphviz(clf, out_file=None,
                       filled=True, rounded=True,  
                       special_characters=True)  
 graph = graphviz.Source(dot_data)  
-graph.render("nutri-score")
+graph.render("nutri-score-decision-tree")
 
 print('Accuracy: ', clf.score(X_test,y_test))
 
