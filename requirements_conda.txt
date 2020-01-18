@@ -1,0 +1,14 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+
+numpy=1.16.5=py37h19fb1c0_0
+numpy-base=1.16.5=py37hc3f5095_0
+numpydoc=0.9.1=py_0
+pandas=0.25.1=py37ha925a31_0
+matplotlib=3.1.1=py37hc8f65d3_0
+scikit-learn=0.22.1=pypi_0
+xgboost=0.90=pypi_0
+pulp=1.6.8=py37_1000
+graphviz=2.38=hfd603c8_2
+python-graphviz=0.13.2=py_0

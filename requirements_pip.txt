@@ -4,3 +4,4 @@ matplotlib==3.1.1
 scikit-learn==0.22.1
 xgboost==0.90
 PuLP==1.6.8
+graphviz==0.13.2
