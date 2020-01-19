@@ -21,7 +21,7 @@ What is included in the folder?
         MachineLearningNutriScore.py
 
     Outputs:
-        AdditiveNutriScoreResults.txt => Preference order of 100 foods
+        AdditiveNutriScoreResults.csv => Preference order of 100 foods
 
         NutriScoreDecisionTree.pdf => The entire decision tree in a graphical format
         NutriScoreDecisionTree => The entire decision tree in a textual format
