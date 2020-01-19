@@ -32,7 +32,7 @@ What is included in the folder?
 
 How to run?
     python <script-name>
-    (The data file should be in the same directory as the scripts)
+    (The data file must be in the same directory as the scripts)
 
 
 What will be generated as you run the scripts?
